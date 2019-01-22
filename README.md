@@ -1,5 +1,5 @@
 # UERD
-My personnal implementation of UERD(Uniform Embedding Revisited).<br>
+My personal implementation of UERD(Uniform Embedding Revisited).<br>
 The paper is: Guo, L., Ni, J., Su, W., Tang, C., \& Shi, Y. Q. (2015). Using statistical image model for jpeg steganography: uniform embedding revisited. IEEE Transactions on Information Forensics \& Security, 10(12), 2669-2680.<br>
 
 The following resources can be found at http://dde.binghamton.edu/download/:<br>
