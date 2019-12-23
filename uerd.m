@@ -3,7 +3,8 @@ function [rho_p1, rho_m1] = uerd(coef, quant, wet_cost)
 [row, col] = size(coef);
 blk_row = row / 8;
 blk_col = col / 8;
-bquant_func = @(x) x ./ quant;
+bquant_func = @(x) x .* quant;
+coef(1:8:end, 1:8:end) = 0;
 
 blk_energy = zeros(blk_row, blk_col);
 dct_energy = blkproc(abs(coef), [8 8], bquant_func);

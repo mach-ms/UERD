@@ -9,3 +9,5 @@ The demo JPG image is in BOSSbase 1.01.<br>
 
 Have fun! :)
 
+Modified 2019.12.23<br>
+Previous version contains some mistakes. In current version they are fixed.<br>
